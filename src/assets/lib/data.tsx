@@ -11,17 +11,17 @@ import nodejsicon from "../../assets/icons/nodejsicon.svg";
 import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
 import mongodbicon from "../../assets/icons/mongoicon.svg";
 import expressicon from "../../assets/icons/expressicon.svg";
-import trelloicon from "../../assets/icons/trelloicon.svg";
+// import trelloicon from "../../assets/icons/trelloicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
 import bootstrap from "../../assets/icons/bootstrap.svg";
 import php from "../../assets/icons/php.svg";
 import mysql from "../../assets/icons/mysql.svg";
 import laravel from "../../assets/icons/laravel.svg";
-import axiosicon from "../../assets/icons/axiosicon.svg";
-import spotifyicon from "../../assets/icons/spotifyicon.svg";
-import netlifyicon from "../../assets/icons/netlifyicon.svg";
-import rendericon from "../../assets/icons/rendericon.svg";
-import jwticon from "../../assets/icons/jwticon.svg";
+// import axiosicon from "../../assets/icons/axiosicon.svg";
+// import spotifyicon from "../../assets/icons/spotifyicon.svg";
+// import netlifyicon from "../../assets/icons/netlifyicon.svg";
+// import rendericon from "../../assets/icons/rendericon.svg";
+// import jwticon from "../../assets/icons/jwticon.svg";
 import vscode from "../../assets/icons/vscode.svg";
 import git from "../../assets/icons/git.svg";
 import github from "../../assets/icons/github.svg";
@@ -36,9 +36,9 @@ import hardwareicon from "../../assets/icons/hardware-icon.svg";
 import nextjsiconwhite from "../../assets/icons/nextjsiconwhite.svg";
 import expressiconwhite from "../../assets/icons/expressiconwhite.svg";
 import { GoHome, GoPerson, GoMail, GoStack, GoProject } from "react-icons/go";
-import { FiGithub, FiLink, FiLinkedin, FiMail } from "react-icons/fi";
-import Imprint from "../../components/Imprint";
-import Privacy from "../../components/Privacy";
+import { FiGithub, FiLink, FiMail } from "react-icons/fi";
+// import Imprint from "../../components/Imprint";
+// import Privacy from "../../components/Privacy";
 
 export const headerIntroData = {
   title: {
