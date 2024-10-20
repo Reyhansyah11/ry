@@ -13,6 +13,7 @@ import expressicon from "../../assets/icons/expressicon.svg";
 // import trelloicon from "../../assets/icons/trelloicon.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
 import bootstrap from "../../assets/icons/bootstrap.svg";
+import bootstrapWhite from "../../assets/icons/bootstrap-white.svg";
 import php from "../../assets/icons/php.svg";
 import mysql from "../../assets/icons/mysql.svg";
 import laravel from "../../assets/icons/laravel.svg";
@@ -24,9 +25,11 @@ import laravel from "../../assets/icons/laravel.svg";
 import vscode from "../../assets/icons/vscode.svg";
 import git from "../../assets/icons/git.svg";
 import github from "../../assets/icons/github.svg";
+import githubWhite from "../../assets/icons/github-white.svg"
 import Math from "../../assets/img/math.jpeg";
 import resep from "../../assets/img/resep.jpeg";
 import portfolio from "../../assets/img/portfolio.jpeg";
+import jadwal from "../../assets/img/apk-jadwal-guru.jpeg"
 import film from "../../assets/img/film.jpeg";
 import profilepicture from "../img/reyyy.jpeg";
 import caricon from "../../assets/icons/car-icon.svg";
@@ -154,9 +157,8 @@ export const projectsData = [
   {
     title: "Portfolio",
     description:
-      "Website Pertama saya yang menggunakan database. Ini adalah website bertemakan daftar resep makanan, yang dimana resep di inputkan oleh user melalui form dan di simpan di database",
-    description_EN:
-      "My first website that uses a database. This is a website with the theme of a list of food recipes, where recipes are inputted by the user through a form and stored in the database.",
+      "Website Portfolio Pertama saya yang menggunakan teknologi ReactJS.",
+    description_EN: "My first portfolio website that uses ReactJS technology.",
     technologies: [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
@@ -167,6 +169,31 @@ export const projectsData = [
     image: portfolio,
     deploymenturl: "https://reyyyyy.vercel.app/",
     githuburl: "https://github.com/Reyhansyah11/reyy",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "Aplikasi Jadwal Pelajaran",
+    description:
+      "Ini adalah Aplikasi Pertama. aplikasi ini di bangun untuk membuat jadwal pelajaran sesuai dengan jadwal pelajaran yang ada di sekolah. teknologi yang di gunakan berupa React Native dan tailwind css",
+    description_EN:
+      "This is the first application. this application is built to create a lesson schedule according to the existing lesson schedule at school. the technology used is React Native and tailwind css.",
+    technologies: [
+      { name: "JavaScript", icon: javascripticon },
+      { name: "TypeScript", icon: typescripticon },
+      { name: "Tailwind", icon: tailwindcssicon },
+      { name: "React Native", icon: reacticon },
+      { name: "Node.js", icon: nodejsicon },
+    ],
+    image: jadwal,
+    deploymenturl: "/",
+    githuburl: "https://github.com/Reyhansyah11/Aplikasi-Jadwal-Pelajaran",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -224,6 +251,12 @@ export const skillsDataWeb = [
         hash: "#Next.js",
         icon: [nextjsicon, nextjsiconwhite],
         color: ["#000000", "#FFFFFF"],
+      },
+      {
+        title: "Bootstrap",
+        hash: "#Bootstrap",
+        icon: [bootstrap, bootstrapWhite], // Array dengan 2 versi icon
+        color: ["#000000", "#FFFFFF"], // Array dengan 2 warna
       },
       {
         title: "Node.js",
@@ -294,8 +327,8 @@ export const skillsDataCMS = [
       {
         title: "Github",
         hash: "#Github",
-        icon: github,
-        color: "#FFF",
+        icon: [github, githubWhite], // Ubah menjadi array dengan 2 versi
+        color: ["#171515", "#FFFFFF"], // Warna hitam untuk light mode, putih untuk dark mode
       },
     ],
   },

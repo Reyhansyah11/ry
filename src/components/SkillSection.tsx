@@ -21,23 +21,39 @@ const SkillSection: React.FC<SkillSectionProps> = ({ skillsData, theme }) => {
   const getSkillIconSrc = (theme: string, skill: Skill) => {
     if (
       theme === "dark" &&
-      (skill.title.includes("Next") || skill.title.includes("Express"))
+      (skill.title.includes("Next") || 
+       skill.title.includes("Express") || 
+       skill.title.includes("Bootstrap") ||
+       skill.title.includes("Github"))  // Tambahkan kondisi untuk Github
     ) {
       return skill.icon[1];
-    } else if (skill.title !== "Next.js" && skill.title !== "Express") {
+    } else if (
+      skill.title !== "Next.js" && 
+      skill.title !== "Express" && 
+      skill.title !== "Bootstrap" &&
+      skill.title !== "Github"  // Tambahkan kondisi untuk Github
+    ) {
       return skill.icon;
     } else {
       return skill.icon[0];
     }
   };
-
+  
   const getSkillColor = (theme: string, skill: Skill) => {
     if (
       theme === "dark" &&
-      (skill.title.includes("Next") || skill.title.includes("Express"))
+      (skill.title.includes("Next") || 
+       skill.title.includes("Express") || 
+       skill.title.includes("Bootstrap") ||
+       skill.title.includes("Github"))  // Tambahkan kondisi untuk Github
     ) {
       return skill.color[1];
-    } else if (skill.title !== "Next.js" && skill.title !== "Express") {
+    } else if (
+      skill.title !== "Next.js" && 
+      skill.title !== "Express" && 
+      skill.title !== "Bootstrap" &&
+      skill.title !== "Github"  // Tambahkan kondisi untuk Github
+    ) {
       return skill.color;
     } else {
       return skill.color[0];
