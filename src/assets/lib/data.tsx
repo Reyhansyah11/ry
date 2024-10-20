@@ -29,6 +29,8 @@ import githubWhite from "../../assets/icons/github-white.svg"
 import Math from "../../assets/img/math.jpeg";
 import resep from "../../assets/img/resep.jpeg";
 import portfolio from "../../assets/img/portfolio.jpeg";
+import musicPlayer from "../../assets/img/music-player.jpeg";
+import miniGames from "../../assets/img/mini-game.jpeg"
 import jadwal from "../../assets/img/apk-jadwal-guru.jpeg"
 import film from "../../assets/img/film.jpeg";
 import profilepicture from "../img/reyyy.jpeg";
@@ -76,6 +78,54 @@ export const headerIntroData = {
 } as const;
 
 export const projectsData = [
+  {
+    title: "Web Pemutar musik sederhana",
+    description:
+      "Ini adalah website pemutar musik sederhana dengan javascript dan bootstrap.",
+    description_EN:
+      "This is a simple music player website with javascript and bootstrap.",
+    technologies: [
+      { name: "JavaScript", icon: javascripticon },
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "Bootstrap", icon: bootstrap },
+    ],
+    image: musicPlayer,
+    deploymenturl: "https://musicaudio.netlify.app/",
+    githuburl: "https://github.com/Reyhansyah11/musik",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "Game Suit dengan Javascript",
+    description:
+      "permainan batu, gunting, kertas sederhana dengan javascript dan bootstrap.",
+    description_EN:
+      "simple rock, scissors, paper game with javascript and bootstrap.",
+    technologies: [
+      { name: "JavaScript", icon: javascripticon },
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "Bootstrap", icon: bootstrap },
+    ],
+    image: miniGames,
+    deploymenturl: "https://permainansuit.netlify.app/",
+    githuburl: "https://github.com/Reyhansyah11/",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
   {
     title: "Bimbel Math",
     description:
