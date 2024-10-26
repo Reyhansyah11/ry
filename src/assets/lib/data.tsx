@@ -193,7 +193,7 @@ export const projectsData = [
       { name: "mysql", icon: mysql },
     ],
     image: resep,
-    deploymenturl: "/",
+    deploymenturl: "https://resep.sinaukode.my.id/index.php",
     githuburl: "https://github.com/Reyhansyah11/buku_resepp",
     githubicon: FiGithub,
     deploymenticon: FiLink,
