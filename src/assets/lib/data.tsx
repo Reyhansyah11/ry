@@ -23,6 +23,8 @@ import laravel from "../../assets/icons/laravel.svg";
 // import rendericon from "../../assets/icons/rendericon.svg";
 // import jwticon from "../../assets/icons/jwticon.svg";
 import vscode from "../../assets/icons/vscode.svg";
+import composer from "../../assets/icons/composer.svg";
+import filament from "../../assets/icons/FilamentLaravel.svg"
 import git from "../../assets/icons/git.svg";
 import github from "../../assets/icons/github.svg";
 import githubWhite from "../../assets/icons/github-white.svg"
@@ -32,6 +34,8 @@ import portfolio from "../../assets/img/portfolio.jpeg";
 import musicPlayer from "../../assets/img/music-player.jpeg";
 import miniGames from "../../assets/img/mini-game.jpeg"
 import jadwal from "../../assets/img/apk-jadwal-guru.jpeg"
+import deliRecipe from "../../assets/img/delirecipe.jpeg";
+import recipeReact from "../../assets/img/recipereact.jpeg"
 import film from "../../assets/img/film.jpeg";
 import profilepicture from "../img/reyyy.jpeg";
 import caricon from "../../assets/icons/car-icon.svg";
@@ -251,6 +255,60 @@ export const projectsData = [
       second: "secondary-btn",
       icon: "white",
       projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "API Recipe",
+    description:
+      "Ini adalah api. website ini menyediakan halaman dashbord admin yang memilik fungsi CRUD untuk daftar resep makanan",
+    description_EN:
+      "This is an API. This website provides an admin dashbord page that has CRUD functionality for a list of food recipes",
+    technologies: [
+      { name: "Laravel", icon: laravel},
+      { name: "Composer", icon: composer },
+      { name: "Filament", icon: filament },
+      { name: "mysql", icon: mysql },
+      { name: "PHP", icon: php },
+      { name: "Bootstrap", icon: bootstrap },
+    ],
+    image: deliRecipe,
+    deploymenturl: "https://recipe.sinaukode.my.id/admin",
+    githuburl: "https://github.com/Reyhansyah11/RecipeLaravel",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#E3964A",
+    },
+  },
+  {
+    title: "Deli Recipe",
+    description:
+      "project recipe part 2, menggunakan react js. dan API",
+    description_EN:
+      "project recipe part 2, using react js. and APIs",
+    technologies: [
+      { name: "Html", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "TypeScript", icon: typescripticon },
+      { name: "React", icon: reacticon },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Tailwind", icon: tailwindcssicon },
+      { name: "Api", icon: apiicon },
+    ],
+    image: recipeReact,
+    deploymenturl: "https://recipe-psi-seven.vercel.app/",
+    githuburl:
+      "https://github.com/Reyhansyah11/recipe",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#FFD5BD",
     },
   },
 ] as const;
