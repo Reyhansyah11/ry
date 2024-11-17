@@ -50,7 +50,7 @@ import { FiGithub, FiLink, FiMail } from "react-icons/fi";
 
 export const headerIntroData = {
   title: {
-    de: "Hallo, Saya Reyhan",
+    de: "Hai, Saya Reyhan",
     en: "Hi, I'm Reyhan",
   },
   subtitle: "Fullstack Developer ",
@@ -83,7 +83,7 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "Web Pemutar musik sederhana",
+    title: "music player",
     description:
       "Ini adalah website pemutar musik sederhana dengan javascript dan bootstrap.",
     description_EN:
@@ -107,7 +107,7 @@ export const projectsData = [
     },
   },
   {
-    title: "Game Suit dengan Javascript",
+    title: "rock paper scissors",
     description:
       "permainan batu, gunting, kertas sederhana dengan javascript dan bootstrap.",
     description_EN:
@@ -131,7 +131,7 @@ export const projectsData = [
     },
   },
   {
-    title: "Bimbel Math",
+    title: "MATH EDUCATION",
     description:
       "website pertama saya yang membawakan tema kelas online matematika. Website yang memberikan beberapa fitur menarik dan pilihan kelas matematika.",
     description_EN:
@@ -183,7 +183,7 @@ export const projectsData = [
     },
   },
   {
-    title: "Recipe",
+    title: "ALS FOOD",
     description:
       "Website Pertama saya yang menggunakan database. Ini adalah website bertemakan daftar resep makanan, yang dimana resep di inputkan oleh user melalui form dan di simpan di database",
     description_EN:
@@ -233,7 +233,7 @@ export const projectsData = [
     },
   },
   {
-    title: "Aplikasi Jadwal Pelajaran",
+    title: "Lesson Schedule App",
     description:
       "Ini adalah Aplikasi Pertama. aplikasi ini di bangun untuk membuat jadwal pelajaran sesuai dengan jadwal pelajaran yang ada di sekolah. teknologi yang di gunakan berupa React Native dan tailwind css",
     description_EN:
@@ -444,8 +444,8 @@ export const skillsDataCMS = [
 
 export const navLinks = [
   { de: "Home", en: "Home", hash: "#home", icon: GoHome },
-  { de: "Skills", en: "Skills", hash: "#skills", icon: GoStack },
-  { de: "projek", en: "Projects", hash: "#projects", icon: GoProject },
+  { de: "Keterampilan", en: "Skills", hash: "#skills", icon: GoStack },
+  { de: "Proyek", en: "Projects", hash: "#projects", icon: GoProject },
   { de: "Tentang saya", en: "About me", hash: "#about-me", icon: GoPerson },
   { de: "Kontak", en: "Contact", hash: "#contact", icon: GoMail },
 ] as const;
@@ -509,7 +509,7 @@ export const aboutMeData = {
   ],
   paragraphs_EN: [
     {
-      title: "meine Hobbys",
+      title: "My Hobbys",
       description:
         "Outside of academics, I enjoy playing badminton to stay active and focused. Welcome to my portfolio, where I showcase my projects and share my journey in technology.",
       icon: hardwareicon,
