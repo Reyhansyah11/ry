@@ -1,7 +1,9 @@
 import canvaicon from "../../assets/icons/canvaicon.svg";
 import figmaicon from "../../assets/icons/figmaicon.svg";
 import htmlicon from "../../assets/icons/htmlicon.svg";
+import xml from ".././/icons/XML.png"
 import cssicon from "../../assets/icons/cssicon.svg";
+import sassicon from "../../assets/icons/sassicon.svg"
 import javascripticon from "../../assets/icons/javascripticon.svg";
 import typescripticon from "../../assets/icons/typescripticon.svg";
 import reacticon from "../../assets/icons/reacticon.svg";
@@ -10,34 +12,41 @@ import nodejsicon from "../../assets/icons/nodejsicon.svg";
 import tailwindcssicon from "../../assets/icons/tailwindicon.svg";
 import mongodbicon from "../../assets/icons/mongoicon.svg";
 import expressicon from "../../assets/icons/expressicon.svg";
-// import trelloicon from "../../assets/icons/trelloicon.svg";
+import baileysicon from "../../assets/icons/Baileys.png"
+import python from "../../assets/icons/python.svg";
 import apiicon from "../../assets/icons/apiicon.svg";
 import bootstrap from "../../assets/icons/bootstrap.svg";
 import bootstrapWhite from "../../assets/icons/bootstrap-white.svg";
 import php from "../../assets/icons/php.svg";
 import mysql from "../../assets/icons/mysql.svg";
 import laravel from "../../assets/icons/laravel.svg";
-// import axiosicon from "../../assets/icons/axiosicon.svg";
-// import spotifyicon from "../../assets/icons/spotifyicon.svg";
-// import netlifyicon from "../../assets/icons/netlifyicon.svg";
+import odoo from "../../assets/icons/odoo.svg";
+import odooiconwhite from "../../assets/icons/odooiconwhite.png";
+import postgre from "../../assets/icons/postgre.svg";
+import mysqlicon from "../../assets/icons/mysql.svg"
+import linux from "../../assets/icons/linux.png";
+import linuxiconwhite from "../../assets/icons/linuxiconwhite.png";
 // import rendericon from "../../assets/icons/rendericon.svg";
 // import jwticon from "../../assets/icons/jwticon.svg";
 import vscode from "../../assets/icons/vscode.svg";
+import claudeicon from "../../assets/icons/claude.svg"
 import composer from "../../assets/icons/composer.svg";
-import filament from "../../assets/icons/FilamentLaravel.svg"
+// import filament from "../../assets/icons/FilamentLaravel.svg"
+import filamentwhite from "../../assets/icons/filamentwhite.png"
 import git from "../../assets/icons/git.svg";
 import github from "../../assets/icons/github.svg";
 import githubWhite from "../../assets/icons/github-white.svg"
 import Math from "../../assets/img/math.jpeg";
 import resep from "../../assets/img/resep.jpeg";
-import portfolio from "../../assets/img/portfolio.jpeg";
-import musicPlayer from "../../assets/img/music-player.jpeg";
-import miniGames from "../../assets/img/mini-game.jpeg"
 import jadwal from "../../assets/img/apk-jadwal-guru.jpeg"
 import deliRecipe from "../../assets/img/delirecipe.jpeg";
 import recipeReact from "../../assets/img/recipereact.jpeg"
 import film from "../../assets/img/film.jpeg";
-import profilepicture from "../img/reyyy.jpeg";
+import WhatsappIntegrations from "../../assets/img/WhatsappIntegrations2.png"
+import WebsiteCompanyProfile from "../../assets/img/WebsiteCompanyProfile2.png"
+import sistemMigrasi from "../../assets/img/SistemMigrasiData.png"
+import profilepicture from "../img/reyyy2.jpeg";
+// import profilepicture from "../img/reyyy.png";
 import caricon from "../../assets/icons/car-icon.svg";
 import travelicon from "../../assets/icons/travel-icon.svg";
 import hardwareicon from "../../assets/icons/hardware-icon.svg";
@@ -83,54 +92,6 @@ export const headerIntroData = {
 
 export const projectsData = [
   {
-    title: "music player",
-    description:
-      "Ini adalah website pemutar musik sederhana dengan javascript dan bootstrap.",
-    description_EN:
-      "This is a simple music player website with javascript and bootstrap.",
-    technologies: [
-      { name: "JavaScript", icon: javascripticon },
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "Bootstrap", icon: bootstrap },
-    ],
-    image: musicPlayer,
-    deploymenturl: "https://musicaudio.netlify.app/",
-    githuburl: "https://github.com/Reyhansyah11/musik",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#E3964A",
-    },
-  },
-  {
-    title: "rock paper scissors",
-    description:
-      "permainan batu, gunting, kertas sederhana dengan javascript dan bootstrap.",
-    description_EN:
-      "simple rock, scissors, paper game with javascript and bootstrap.",
-    technologies: [
-      { name: "JavaScript", icon: javascripticon },
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "Bootstrap", icon: bootstrap },
-    ],
-    image: miniGames,
-    deploymenturl: "https://permainansuit.netlify.app/",
-    githuburl: "https://github.com/Reyhansyah11/",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#E3964A",
-    },
-  },
-  {
     title: "MATH EDUCATION",
     description:
       "website pertama saya yang membawakan tema kelas online matematika. Website yang memberikan beberapa fitur menarik dan pilihan kelas matematika.",
@@ -140,7 +101,7 @@ export const projectsData = [
       { name: "Html", icon: htmlicon },
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
-      { name: "Bootstrap", icon: bootstrap },
+      { name: "Bootstrap", icon: bootstrapWhite },
     ],
     image: Math,
     deploymenturl: "https://kelas-math.vercel.app/",
@@ -193,36 +154,12 @@ export const projectsData = [
       { name: "CSS", icon: cssicon },
       { name: "JavaScript", icon: javascripticon },
       { name: "PHP", icon: php },
-      { name: "Bootstrap", icon: bootstrap },
+      { name: "Bootstrap", icon: bootstrapWhite },
       { name: "mysql", icon: mysql },
     ],
     image: resep,
     deploymenturl: "https://resep.sinaukode.my.id/index.php",
     githuburl: "https://github.com/Reyhansyah11/buku_resepp",
-    githubicon: FiGithub,
-    deploymenticon: FiLink,
-    colors: {
-      main: "main-btn",
-      second: "secondary-btn",
-      icon: "white",
-      projectcolor: "#E3964A",
-    },
-  },
-  {
-    title: "Portfolio",
-    description:
-      "Website Portfolio Pertama saya yang menggunakan teknologi ReactJS.",
-    description_EN: "My first portfolio website that uses ReactJS technology.",
-    technologies: [
-      { name: "Html", icon: htmlicon },
-      { name: "CSS", icon: cssicon },
-      { name: "JavaScript", icon: javascripticon },
-      { name: "React", icon: reacticon },
-      { name: "Node.js", icon: nodejsicon },
-    ],
-    image: portfolio,
-    deploymenturl: "https://reyyyyy.vercel.app/",
-    githuburl: "https://github.com/Reyhansyah11/reyy",
     githubicon: FiGithub,
     deploymenticon: FiLink,
     colors: {
@@ -239,7 +176,6 @@ export const projectsData = [
     description_EN:
       "This is the first application. this application is built to create a lesson schedule according to the existing lesson schedule at school. the technology used is React Native and tailwind css.",
     technologies: [
-      { name: "JavaScript", icon: javascripticon },
       { name: "TypeScript", icon: typescripticon },
       { name: "Tailwind", icon: tailwindcssicon },
       { name: "React Native", icon: reacticon },
@@ -266,10 +202,10 @@ export const projectsData = [
     technologies: [
       { name: "Laravel", icon: laravel},
       { name: "Composer", icon: composer },
-      { name: "Filament", icon: filament },
+      { name: "Filament", icon: filamentwhite },
       { name: "mysql", icon: mysql },
       { name: "PHP", icon: php },
-      { name: "Bootstrap", icon: bootstrap },
+      { name: "Tailwind", icon: tailwindcssicon },
     ],
     image: deliRecipe,
     deploymenturl: "https://recipe.sinaukode.my.id/admin",
@@ -311,6 +247,91 @@ export const projectsData = [
       projectcolor: "#FFD5BD",
     },
   },
+  {
+    title: "Integrasi WhatsApp",
+    description:
+      "project integrasi whatsapp dengan sistem multi nomer akun admin, pencaatan leads baru, banyak agent, dan pencatatan status pipeline. menggunakan baileys & odoo.",
+    description_EN:
+      "A project to integrate WhatsApp with a system featuring multiple admin account numbers, new lead tracking, multiple agents, and pipeline status tracking. Using Baileys & Odoo.",
+    technologies: [
+      { name: "XML", icon: xml },
+      { name: "SASS", icon: sassicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "Python", icon: python },
+      { name: "Bootstrap", icon: bootstrapWhite },
+      { name: "Postgre", icon: postgre },
+      { name: "Node.js", icon: nodejsicon },
+      { name: "Baileys", icon: baileysicon },
+      { name: "Api", icon: apiicon },
+      { name: "Odoo", icon: odooiconwhite },
+    ],
+    image: WhatsappIntegrations,
+    deploymenturl: "/",
+    githuburl:
+      "https://github.com/Reyhansyah11/hra_whatsapp",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#FFD5BD",
+    },
+  },
+  {
+    title: "Website Company Profile",
+    description:
+      "Website profil perusahaan yang dibangun dengan laravel filament, dan styling interaktif dengan tailwind css.",
+    description_EN:
+      "company profile website built with Laravel Filament and interactive styling using Tailwind CSS.",
+    technologies: [
+      { name: "HTML", icon: htmlicon },
+      { name: "CSS", icon: cssicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "TailwindCss", icon: tailwindcssicon },
+      { name: "Laravel", icon: laravel },
+    ],
+    image: WebsiteCompanyProfile,
+    deploymenturl: "/",
+    githuburl:
+      "/",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#FFD5BD",
+    },
+  },
+  {
+    title: "Sistem Migrasi Data (CSV to Odoo)",
+    description:
+      "Sistem Migrasi data dari csv ke odoo ini menyediakan fitur mapping data dengan tampilan yang ramah pengguna.",
+    description_EN:
+      "This data migration system from CSV to Odoo provides data mapping features with a user-friendly interface .",
+    technologies: [
+      { name: "XML", icon: xml },
+      { name: "SASS", icon: sassicon },
+      { name: "JavaScript", icon: javascripticon },
+      { name: "Python", icon: python },
+      { name: "Bootstrap", icon: bootstrapWhite },
+      { name: "Postgre", icon: postgre },
+      { name: "Odoo", icon: odooiconwhite },
+    ],
+    image: sistemMigrasi,
+    deploymenturl: "/",
+    githuburl:
+      "https://github.com/Reyhansyah11/migration-tools-odoo",
+    githubicon: FiGithub,
+    deploymenticon: FiLink,
+    colors: {
+      main: "main-btn",
+      second: "secondary-btn",
+      icon: "white",
+      projectcolor: "#FFD5BD",
+    },
+  },
 ] as const;
 
 export const liveTickerData = {
@@ -337,6 +358,18 @@ export const skillsDataWeb = [
         color: "#1572B6",
       },
       {
+        title: "PHP",
+        hash: "#PHP",
+        icon: php,
+        color: "#777BB4",
+      },
+      {
+        title: "SASS",
+        hash: "#SASS",
+        icon: sassicon,
+        color: "#CD6799",
+      },
+      {
         title: "JavaScript",
         hash: "#JavaScript",
         icon: javascripticon,
@@ -347,6 +380,36 @@ export const skillsDataWeb = [
         hash: "#TypeScript",
         icon: typescripticon,
         color: "#007ACC",
+      },
+      {
+        title: "Bootstrap",
+        hash: "#Bootstrap",
+        icon: [bootstrap, bootstrapWhite], // Array dengan 2 versi icon
+        color: ["#000000", "#FFFFFF"], // Array dengan 2 warna
+      },
+      {
+        title: "Tailwind",
+        hash: "#Tailwind",
+        icon: tailwindcssicon,
+        color: "#38B2AC",
+      },
+      {
+        title: "MySql",
+        hash: "#MySql",
+        icon: mysqlicon,
+        color: "#336791",
+      },
+      {
+        title: "MongoDB",
+        hash: "#MongoDB",
+        icon: mongodbicon,
+        color: "#449C45",
+      },
+      {
+        title: "postgre",
+        hash: "#postgre",
+        icon: postgre,
+        color: "#336791",
       },
       {
         title: "React",
@@ -361,10 +424,16 @@ export const skillsDataWeb = [
         color: ["#000000", "#FFFFFF"],
       },
       {
-        title: "Bootstrap",
-        hash: "#Bootstrap",
-        icon: [bootstrap, bootstrapWhite], // Array dengan 2 versi icon
-        color: ["#000000", "#FFFFFF"], // Array dengan 2 warna
+        title: "Express",
+        hash: "#Express",
+        icon: [expressicon, expressiconwhite],
+        color: ["#000000", "#FFFFFF"],
+      },
+      {
+        title: "Baileys JS",
+        hash: "#Baileys JS",
+        icon: baileysicon,
+        color: "#10C6A2",
       },
       {
         title: "Node.js",
@@ -373,34 +442,28 @@ export const skillsDataWeb = [
         color: "#339933",
       },
       {
-        title: "Tailwind",
-        hash: "#Tailwind",
-        icon: tailwindcssicon,
-        color: "#38B2AC",
-      },
-      {
-        title: "MongoDB",
-        hash: "#MongoDB",
-        icon: mongodbicon,
-        color: "#449C45",
-      },
-      {
-        title: "Express",
-        hash: "#Express",
-        icon: [expressicon, expressiconwhite],
-        color: ["#000000", "#FFFFFF"],
-      },
-      {
-        title: "PHP",
-        hash: "#PHP",
-        icon: php,
-        color: "#777BB4",
-      },
-      {
         title: "Laravel",
         hash: "#Laravel",
         icon: laravel,
         color: "#FF2D20",
+      },
+      {
+        title: "Python",
+        hash: "#Python",
+        icon: python,
+        color: "#007ACC",
+      },
+      {
+        title: "odoo",
+        hash: "#odoo",
+        icon: [odoo, odooiconwhite],
+        color: ["#704B67", "#FFFFFF"],
+      },
+      {
+        title: "API",
+        hash: "#API",
+        icon: apiicon,
+        color: "#D83131",
       },
     ],
   },
@@ -421,10 +484,22 @@ export const skillsDataCMS = [
     skillsTitle: "Tools",
     skills: [
       {
+        title: "linux",
+        hash: "#linux",
+        icon: [linux, linuxiconwhite],
+        color: ["#336791", "#FFFFFF"],
+      },
+      {
         title: "VsCode",
         hash: "#VsCode",
         icon: vscode,
         color: "#21759B",
+      },
+      {
+        title: "Claude",
+        hash: "#Claude",
+        icon: claudeicon,
+        color: "#D97757",
       },
       {
         title: "Git",

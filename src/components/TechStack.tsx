@@ -55,12 +55,16 @@ const TechStack: React.FC = () => {
           </motion.div>
         </div>
         <div className="flex gap-40 justify-center max-lg:flex-col">
-          <div className="w-1/3 max-lg:w-full">
+          <div className="w-2/5 max-lg:w-full [&_.grid]:grid-cols-4">
             <SkillSection skillsData={skillsDataWeb} theme={theme} />
           </div>
-          <div className="flex flex-col h-[inherit]  justify-around max-lg:gap-40">
-            <SkillSection skillsData={skillsDataDesign} theme={theme} />
-            <SkillSection skillsData={skillsDataCMS} theme={theme} />
+          <div className="flex flex-col h-[inherit] justify-around max-lg:gap-40">
+            <div className="[&_.grid]:grid-cols-2">
+              <SkillSection skillsData={skillsDataDesign} theme={theme} />
+            </div>
+            <div className="[&_.grid]:grid-cols-5">
+              <SkillSection skillsData={skillsDataCMS} theme={theme} />
+            </div>
           </div>
         </div>
       </section>
