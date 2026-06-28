@@ -62,7 +62,7 @@ const TechStack: React.FC = () => {
             <div className="[&_.grid]:grid-cols-2">
               <SkillSection skillsData={skillsDataDesign} theme={theme} />
             </div>
-            <div className="[&_.grid]:grid-cols-5">
+            <div className="[&_.grid]:grid-cols-5 max-lg:[&_.grid]:grid-cols-2">
               <SkillSection skillsData={skillsDataCMS} theme={theme} />
             </div>
           </div>
