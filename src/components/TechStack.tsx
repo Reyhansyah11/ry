@@ -55,7 +55,7 @@ const TechStack: React.FC = () => {
           </motion.div>
         </div>
         <div className="flex gap-40 justify-center max-lg:flex-col">
-          <div className="w-2/5 max-lg:w-full [&_.grid]:grid-cols-4">
+          <div className="w-2/5 max-lg:w-full [&_.grid]:grid-cols-4 max-lg:[&_.grid]:grid-cols-2">
             <SkillSection skillsData={skillsDataWeb} theme={theme} />
           </div>
           <div className="flex flex-col h-[inherit] justify-around max-lg:gap-40">

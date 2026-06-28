@@ -34,7 +34,7 @@ const SkillSection: React.FC<SkillSectionProps> = ({ skillsData, theme }) => {
 
   return (
     <article
-      className={`h-auto rounded-2xl p-16 pt-32 grid grid-cols-3 gap-10 relative z-10 max-lg:w-full max-lg:grid-cols-2 max-lg:p-8 max-lg:pt-32 ${
+      className={`h-auto rounded-2xl p-16 pt-32 grid grid-cols-3 gap-10 relative z-10 max-lg:w-full max-lg:grid-cols-2 max-lg:gap-x-6 max-lg:gap-y-16 max-lg:p-8 max-lg:pt-32 ${
         theme === "dark"
           ? "bg-[--blackblue] dark-mode-shadow"
           : "bg-[--icewhite] dark-shadow"
@@ -79,9 +79,9 @@ const SkillSection: React.FC<SkillSectionProps> = ({ skillsData, theme }) => {
           <img
             src={getSkillIconSrc(theme, skill)}
             alt={`${skill.title}-icon`}
-            className="h-[10rem]"
+            className="h-[10rem] max-lg:h-[6rem]"
           />
-          <h3 className="max-lg:text-[2rem] min-[1024px]:hidden">
+          <h3 className="max-lg:text-[2rem] max-lg:mt-2 min-[1024px]:hidden">
             {skill.title}
           </h3>
         </div>
